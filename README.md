@@ -1,7 +1,13 @@
 ![PAMPLEJUCE](pamplejuce.png)
-[![](https://github.com/sudara/pamplejuce/workflows/CMake/badge.svg)](https://github.com/sudara/pamplejuce/actions)
+[![](https://github.com/nofishonfriday/pamplejuce/workflows/CMake/badge.svg)](https://github.com/nofishonfriday/pamplejuce/actions)
+
 
 Pamplejuce is a ~~template~~ lifestyle for creating and building JUCE plugins in 2021.
+
+=== mods by nofish ===
+- support for building CLAP plugins
+- disable Pluginval Linux (because it failed)
+- Known issues: Creating a release fails uploading the artifacts
 
 Out of the box, it supports:
 
