@@ -42,7 +42,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-        submodules: true # Gotta get JUCE populated
+        submodules: recursive # Gotta get JUCE populated
 
     - name: ccache
       if: matrix.os != 'windows-latest'
