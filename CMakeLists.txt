@@ -61,7 +61,7 @@ juce_add_plugin("${PROJECT_NAME}"
     FORMATS "${FORMATS}"
     PRODUCT_NAME "${PROJECT_NAME}")        # The name of the final executable, which can differ from the target name
 
-# build CLAP
+# Build CLAP
 clap_juce_extensions_plugin(TARGET Pamplejuce
         CLAP_ID "com.my-cool-plugs.Pamplejuce"
         CLAP_FEATURES audio-effect)
@@ -112,6 +112,7 @@ foreach(target ${FORMATS} "All")
 endforeach()
 set_target_properties(Assets PROPERTIES FOLDER "Targets")
 
+# Add additional JUCE modules you want you use in your project here
 # We'll need to link to these from our plugin as well as our tests
 set(JUCE_DEPENDENCIES
     juce::juce_audio_utils)
