@@ -2,12 +2,17 @@
 [![](https://github.com/nofishonfriday/pamplejuce/workflows/CMake/badge.svg)](https://github.com/nofishonfriday/pamplejuce/actions)
 
 
-Pamplejuce is a ~~template~~ lifestyle for creating and building JUCE plugins in 2021.
+Pamplejuce is a ~~template~~ lifestyle for creating and building JUCE plugins in 2021.  
 
-=== mods by nofish ===
-- support for building CLAP plugins
-- disable Pluginval Linux (because it failed)
-- Known issues: Creating a release fails uploading the artifacts
+<br/>
+=== mods by nofish ===  
+
+- support for building CLAP plugins  
+
+- disable Pluginval Linux (doesn't work currently)  
+- disable artefacts upload (doesn't work currently)  
+- disable tests on Win (sometimes test executable is crashed)  
+<br/>
 
 Out of the box, it supports:
 
